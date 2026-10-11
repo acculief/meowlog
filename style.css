@@ -1,0 +1,15 @@
+:root { --paper:#F5F0E8; --card:#FBF8F3; --ink:#1E1A16; --soft:#5E554C; --faint:#A79D92; --rule:#E2D8CA; --accent:#D9592F; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.65 "DM Sans", -apple-system, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 20px 80px; }
+header { display:flex; align-items:center; gap:12px; margin-bottom: 36px; }
+header img { width:44px; height:44px; border-radius:11px; }
+header a { font-family:"Fraunces", Georgia, serif; font-style:italic; font-weight:600; font-size:24px; color:var(--ink); text-decoration:none; }
+h1 { font-family:"Fraunces", Georgia, serif; font-weight:600; font-size:40px; line-height:1.15; letter-spacing:-0.5px; margin:0 0 12px; }
+h2 { font-family:"Fraunces", Georgia, serif; font-weight:500; font-size:22px; margin:36px 0 8px; }
+p, li { color:var(--soft); }
+a { color:var(--accent); }
+.date { color:var(--faint); font-size:13px; }
+.card { background:var(--card); border:1px solid var(--rule); border-radius:20px; padding:22px 24px; margin-top:24px; }
+footer { margin-top:56px; padding-top:20px; border-top:1px solid var(--rule); font-size:13px; color:var(--faint); }
+footer a { color:var(--faint); margin-right:16px; }
